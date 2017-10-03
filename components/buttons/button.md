@@ -5,11 +5,11 @@ subgroup: buttons
 permalink: /components/buttons/button.html
 
 title: Button
-description: Button description
+description: Standard button
 
 variations:
 - title: Button
-  description: Button description
+  description: Standard button
   styleModifier: c-btn
   includeClassification: molecules
   includeCategory: 02-blocks

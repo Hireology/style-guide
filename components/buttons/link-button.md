@@ -2,10 +2,10 @@
 layout: component-detail
 group: components
 subgroup: buttons
-permalink: /components/buttons/text-button.html
+permalink: /components/buttons/link-button.html
 
-title: Text button
-description: Text button description
+title: Link
+description: Button that is text only and doesn't contain a border or fill
 
 variations:
 - title: Text button

@@ -81,20 +81,27 @@ layout: default
 					<ul class="c-tabs__list">
 
 						<li class="c-tabs__item">
+							<a href="#react-{{ forloop.index }}" class="c-tabs__link js-tab">React</a>
+						</li><!-- end c-tabs__item -->
+
+						<li class="c-tabs__item">
 							<a href="#html-{{ forloop.index }}" class="c-tabs__link js-tab">HTML</a>
 						</li><!-- end c-tabs__item -->
 
-						<li class="c-tabs__item">
-							<a href="#angular-{{ forloop.index }}" class="c-tabs__link js-tab">Angular</a>
-						</li><!-- end c-tabs__item -->
-
-						<li class="c-tabs__item">
-							<a href="#react-{{ forloop.index }}" class="c-tabs__link js-tab">React</a>
-						</li><!-- end c-tabs__item -->
 
 					</ul><!-- end c-tabs__list -->
 
 					<div class="c-tabs__body ">
+
+						<div class="c-tabs__panel js-tabs-panel" id="react-{{ forloop.index }}">
+
+							<div class="pattern-code">
+								<button class="c-btn pattern-code-copy-btn" data-clipboard-target="#pattern-code-{{ forloop.index }}">Copy</button>
+								<pre class="highlight pattern-code-block"><code class="language-html" id="pattern-code-{{ forloop.index }}">THIS IS REACT CODE</code></pre>
+							</div>
+
+						</div><!--end c-tabs__panel-->
+
 
 						<div class="c-tabs__panel js-tabs-panel" id="html-{{ forloop.index }}">
 
@@ -103,25 +110,6 @@ layout: default
 							<div class="pattern-code">
 								<button class="c-btn pattern-code-copy-btn" data-clipboard-target="#pattern-code-{{ forloop.index }}">Copy</button>
 								<pre class="highlight pattern-code-block"><code class="language-html" id="pattern-code-{{ forloop.index }}">{% highlight liquid %}{% include {{ markupOnlyPath }} %}{% endhighlight %}</code></pre>
-							</div>
-
-						</div><!--end c-tabs__panel-->
-
-
-						<div class="c-tabs__panel js-tabs-panel" id="angular-{{ forloop.index }}">
-
-							<div class="pattern-code">
-								<button class="c-btn pattern-code-copy-btn" data-clipboard-target="#pattern-code-{{ forloop.index }}">Copy</button>
-								<pre class="highlight pattern-code-block"><code class="language-html" id="pattern-code-{{ forloop.index }}">THIS IS ANGULAR CODE</code></pre>
-							</div>
-
-						</div><!--end c-tabs__panel-->
-
-						<div class="c-tabs__panel js-tabs-panel" id="react-{{ forloop.index }}">
-
-							<div class="pattern-code">
-								<button class="c-btn pattern-code-copy-btn" data-clipboard-target="#pattern-code-{{ forloop.index }}">Copy</button>
-								<pre class="highlight pattern-code-block"><code class="language-html" id="pattern-code-{{ forloop.index }}">THIS IS REACT CODE</code></pre>
 							</div>
 
 						</div><!--end c-tabs__panel-->

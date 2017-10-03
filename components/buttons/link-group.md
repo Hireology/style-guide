@@ -2,13 +2,13 @@
 layout: component-detail
 group: components
 subgroup: buttons
-permalink: /components/buttons/button-group.html
+permalink: /components/buttons/link-group.html
 
-title: Button group
-description: Container for grouping a set of buttons
+title: Link group
+description: Container for grouping a set of links
 
 variations:
-- title: Button group
+- title: Link group
   description: Button group description
   styleModifier: c-btn-group
   includeClassification: molecules
